@@ -7,5 +7,6 @@
 
 first_name = 'ada'
 last_name = 'lovelace'
-full_name = f'{first_name} {last_name}'
-print(f'First programmer is {full_name.title()}')
+full_name = f'\n\t\t{first_name}\n\t\t{last_name}'
+message = f'\tFirst programmer is {full_name.title()}'
+print(message)
